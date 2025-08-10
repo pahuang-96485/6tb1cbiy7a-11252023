@@ -31,18 +31,18 @@ This work addresses this gap by conducting three experiments to test the zero-sh
 ### Installation
 ```bash
 git clone https://github.com/pahuang-96485/6tb1cbiy7a-11252023.git
-
+```
 ### Sample testing command
 ```bash
 cd Test
 python test.py --test_dir "./dataset/ImageNet1K-Val" --dataset "imagenet_1k" --src_model vit_base_patch16_384 --tar_model vit_base_patch16_384 --attack_type "PGD" --eps 16 --index "all" --batch_size 5
-
+```
 ### Sample evaluation command
 ```bash
 cd Evaluation
 python test-single-imageTpp5-plot.py
-
-## Acknowledgements
+```
+### Acknowledgements
 This repository reuses and adapts code from:
 - [ATViT: Improving Adversarial Robustness of Vision Transformers via Patch-wise Masking](https://github.com/Muzammal-Naseer/ATViT) — Naseer *et al.*, CVPR 2021.
 - [OpenAI CLIP](https://github.com/openai/CLIP)
@@ -50,7 +50,7 @@ This repository reuses and adapts code from:
 
 We thank the authors for making their code and models publicly available.
 
-## Citation
+### Citation
 If you use this work in your research, please also cite:
 
 ```bibtex
@@ -61,3 +61,4 @@ If you use this work in your research, please also cite:
   pages={7999--8008},
   year={2021}
 }
+```
