@@ -1,4 +1,4 @@
-# Adversarial Challenges and Evaluations on CLIP
+# Research: Adversarial Challenges and Evaluations on CLIP
 
 This repository contains the code, datasets, and experimental results for research **"Adversarial Challenges and Evaluations on CLIP"**, which investigates the robustness of CLIP models against adversarial attacks through a series of zero-shot evaluation experiments.
 
